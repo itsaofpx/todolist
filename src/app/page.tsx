@@ -53,7 +53,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <div className="border border-amber-200 rounded-xl h-full m-[2rem] p-[1rem]">
+    <div className="flex-grow border border-amber-200 rounded-xl min-h-screen m-[2rem] p-[1rem]">
       <div className="grid grid-cols-[1fr_2fr] gap-x-[2rem]">
         <div className="grid">
           <Profile
